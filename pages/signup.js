@@ -122,4 +122,4 @@ function Signup() {
   );
 }
 
-export default signup;
+export default Signup;
