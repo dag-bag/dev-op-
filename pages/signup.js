@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-function signup() {
+function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const id = toast.loading("Please wait...");
